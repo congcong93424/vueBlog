@@ -35,6 +35,7 @@ export default {
   width: 70%;
   height: 100%;
   margin: 0 auto;
+  overflow: hidden;
 }
 .topLink ul li {
   float: left;
