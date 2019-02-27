@@ -29,7 +29,7 @@ export default {
   height: 100%;
 }
 .content {
-  width: 70%;
+  width: 80%;
   min-height: 300px;
   border: 0.1rem solid lightgray;
   margin: 0 auto;
