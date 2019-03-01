@@ -7,6 +7,7 @@
 
 <script>
 // import { reqMethodsPost } from '../../http/axios.js'
+import { EventBus } from '../../eventbus/index.js'
 export default {
   name: 'world',
   data() {
@@ -22,6 +23,7 @@ export default {
       }
       this.$api.mockdata(data).then(res => {
         console.log(res)
+        EventBus.$emit('getData',res)
       })
     }
   }
